@@ -1,3 +1,7 @@
 {
-    "python.REPL.enableREPLSmartSend": false
+    "python.testing.pytestArgs": [
+        "Python"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
