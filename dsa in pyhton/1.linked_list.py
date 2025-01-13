@@ -3,8 +3,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None  # Pointer to the next node
-
-
+        
 class LinkedList:
     """A class to represent the linked list."""
     def __init__(self):
@@ -50,7 +49,6 @@ class LinkedList:
             print(current.data, end=" -> ")
             current = current.next
         print("None")
-
 
 # Example usage:
 if __name__ == "__main__":
