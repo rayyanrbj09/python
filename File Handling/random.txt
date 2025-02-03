@@ -1,0 +1,9 @@
+Line 1: The quick brown fox jumps over the lazy dog.  
+Line 2: 1234567890 - Numbers are fun to work with.  
+Line 3: File handling is an essential skill in programming.  
+Line 4: Learning to read and write files helps automate tasks.  
+Line 5: Python, C++, and Java all support file handling.  
+Line 6: Opening, reading, writing, and closing files are common operations.  
+Line 7: Error handling is crucial when working with files.  
+sLine 8: End of file reached. Goodbye!
+New text
