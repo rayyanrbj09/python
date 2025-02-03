@@ -1,4 +1,4 @@
-Line 1: The quick brown fox jumps over the lazy dog.  
+New update of the file will be guranateede lazy dog.  
 Line 2: 1234567890 - Numbers are fun to work with.  
 Line 3: File handling is an essential skill in programming.  
 Line 4: Learning to read and write files helps automate tasks.  
