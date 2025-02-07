@@ -42,7 +42,7 @@ fuel_car = FuelVehicle("Toyota", "Corolla", 2021, 13)
 electric_car = ElectricVehicle("Tesla", "Model S", 2021, 100)
 
 # Create an object of HybridVehicle
-hybrid_car = HybridVehicle("Toyota", "Prius", 2021, 11, 8.8)
+hybrid_car = HybridVehicle("Toyota", "Prius", 2021, fuel_car.fuel_capacity, electric_car.battery_capacity)
 
 # Display information for the fuel car
 print(f"This is the fuel car details : {fuel_car.vehicle_info()},  {fuel_car.fuel_info()}")
