@@ -18,6 +18,7 @@ class FuelVehicle(Vehicle):
         return f"Fuel Capacity: {self.fuel_capacity} gallons"
 
 class ElectricVehicle(Vehicle):
+    
     """A class to represent an electric vehicle."""
     def __init__(self, make, model, year, battery_capacity=0 ):
         super().__init__(make, model, year)

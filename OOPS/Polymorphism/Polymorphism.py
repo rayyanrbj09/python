@@ -24,7 +24,7 @@ class rectangle(shape):
     
     def area(self):
         return self.length * self.breadth
-
+    
 class triangle(shape):
     def __init__(self,base,height):
         self.base = base
@@ -32,7 +32,9 @@ class triangle(shape):
     
     def area(self):
         return 0.5 * self.base * self.height
-
+    
+# Polymorphism
 shapes = [square(10), circle(9), rectangle(7,8), triangle(5,10)]
+
 for shape in shapes:
     print(f"Area of {type(shape).__name__} is : {shape.area()}")
