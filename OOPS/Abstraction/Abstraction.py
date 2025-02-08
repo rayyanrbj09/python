@@ -13,11 +13,7 @@ class BankAccount(ABC):
     def withdraw(self, amount):
         pass
 
-<<<<<<< HEAD
     @abstractmethod
-=======
-    
->>>>>>> 13b6859c88889a798469ae5e675196b6f261916f
     def balance_enquiry(self):
         pass
 
