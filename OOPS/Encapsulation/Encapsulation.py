@@ -10,15 +10,15 @@ class Employee:
     # Getter method for name
     def get_name(self):
         return self.__name
-
+    
     # Setter method for name
     def set_name(self, name):
         self.__name = name
-
+        
     # Getter method for salary
     def get_salary(self):
         return self.__salary
-
+    
     # Setter method for salary
     def set_salary(self, salary):
         if salary > 0:
