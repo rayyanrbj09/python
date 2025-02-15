@@ -12,7 +12,7 @@ class BankAccount(ABC):
     @abstractmethod
     def withdraw(self, amount):
         pass
-
+            
     @abstractmethod
     def balance_enquiry(self):
         pass
