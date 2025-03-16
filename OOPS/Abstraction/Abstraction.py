@@ -10,9 +10,9 @@ class BankAccount(ABC):
         pass #Hides the implementation details
 
     @abstractmethod
-    def withdraw(self, amount):jiowqd
+    def withdraw(self, amount):
         pass
-            
+    
     @abstractmethod
     def balance_enquiry(self):
         pass
