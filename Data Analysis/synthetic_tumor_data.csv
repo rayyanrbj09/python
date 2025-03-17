@@ -1,0 +1,701 @@
+Patient_ID,Age,Gender,Tumor_Type,Tumor_Size,Location,Stage,Radiation_Treatment,Surgery_Performed,Chemotherapy,Survival_Rate,Tumor_Growth_Rate,Family_History,Follow_Up_Required
+1,69,Female,Malignant,6.76,Lung,Stage III,No,No,Yes,0.09,1.74,No,No
+2,32,Male,Benign,5.23,Skin,,Yes,Yes,No,0.41,0.54,Yes,No
+3,89,Female,Benign,5.78,Breast,Stage I,No,Yes,No,0.16,1.42,,No
+4,78,Male,Benign,7.33,Lung,Stage II,Yes,No,Yes,0.22,1.3,Yes,Yes
+5,38,Male,Malignant,2.67,Skin,Stage III,No,Yes,Yes,0.32,1.74,Yes,No
+6,41,Male,Benign,9.97,Brain,,Yes,Yes,No,0.26,,Yes,No
+7,20,Male,Malignant,9.76,Breast,Stage III,No,Yes,No,0.09,1.96,No,No
+8,39,Male,Malignant,6.68,Breast,Stage III,Yes,No,Yes,0.09,1.21,Yes,Yes
+9,70,Female,Benign,2.4,Brain,,Yes,Yes,Yes,0.19,1.99,,No
+10,19,Male,Benign,6.96,Skin,Stage II,Yes,Yes,Yes,0.05,1.83,Yes,No
+11,47,Male,Benign,,Colon,Stage II,No,Yes,Yes,0.63,0.52,No,No
+12,55,Female,Malignant,0.79,Brain,Stage II,No,Yes,Yes,0.29,0.21,No,Yes
+13,19,Male,Benign,2.95,Skin,Stage IV,No,Yes,No,0.28,0.59,Yes,No
+14,81,Female,Benign,4.89,Brain,Stage IV,Yes,Yes,No,0.33,1.1,,No
+15,77,Female,Benign,8.75,Brain,,No,No,No,0.66,0.43,No,No
+16,38,Female,Benign,7.41,Lung,Stage IV,Yes,No,No,,0.42,No,Yes
+17,50,Male,Benign,7.56,Skin,Stage IV,No,Yes,Yes,0.76,0.98,No,Yes
+18,75,Male,Malignant,4.54,Colon,Stage IV,Yes,No,Yes,0.73,0.16,No,Yes
+19,39,Male,Malignant,3.79,Lung,Stage II,Yes,No,Yes,0.48,0.33,No,Yes
+20,66,Female,Benign,4.02,Brain,Stage II,Yes,Yes,No,0.69,0.89,Yes,No
+21,76,Male,Benign,9.88,Brain,Stage II,No,No,No,0.55,0.22,No,No
+22,59,Male,Benign,0.88,Brain,Stage IV,No,No,No,0.22,0.85,No,Yes
+23,77,Male,Benign,8.74,Skin,Stage II,No,No,Yes,0.21,1.0,Yes,Yes
+24,32,Female,Malignant,6.0,Skin,Stage IV,Yes,No,No,0.3,0.96,Yes,No
+25,79,Female,Benign,4.67,Lung,Stage I,Yes,No,Yes,0.91,1.75,Yes,No
+26,79,Male,Malignant,7.39,Colon,Stage IV,No,No,Yes,0.55,1.11,Yes,Yes
+27,64,Male,Malignant,5.12,Lung,,No,No,Yes,0.73,0.99,,Yes
+28,79,Male,Benign,8.8,Breast,Stage II,No,No,Yes,0.35,0.88,No,Yes
+29,68,Male,Malignant,9.06,Brain,Stage II,Yes,Yes,Yes,0.41,1.65,No,Yes
+30,72,Female,Malignant,4.51,Brain,Stage III,Yes,Yes,Yes,0.13,,No,No
+31,81,Female,Malignant,3.13,Brain,Stage IV,Yes,No,No,0.17,1.72,Yes,Yes
+32,20,Female,Malignant,,Lung,Stage I,Yes,No,Yes,0.83,1.38,No,Yes
+33,68,Female,Benign,9.17,Lung,,Yes,Yes,Yes,0.58,0.36,,No
+34,24,Male,Benign,2.5,Brain,Stage III,No,No,No,0.34,0.63,,No
+35,38,Male,Malignant,6.42,Lung,Stage IV,Yes,No,Yes,0.8,0.19,No,No
+36,56,Male,Benign,6.5,Skin,Stage II,Yes,Yes,No,0.25,,No,No
+37,35,Female,Benign,7.46,Skin,Stage IV,Yes,Yes,No,0.98,1.36,No,No
+38,21,Male,Benign,1.75,Lung,Stage III,Yes,Yes,No,0.34,1.52,No,Yes
+39,77,Female,Benign,7.3,Brain,Stage III,Yes,No,Yes,0.34,0.69,Yes,Yes
+40,31,Female,Benign,9.14,Lung,Stage II,No,No,Yes,0.31,1.71,Yes,Yes
+41,26,Male,Malignant,2.21,Lung,Stage II,Yes,Yes,No,0.12,0.59,Yes,No
+42,70,Male,Benign,2.76,Lung,Stage II,Yes,Yes,Yes,0.11,,Yes,Yes
+43,19,Male,Benign,9.73,Breast,Stage IV,Yes,No,Yes,0.65,0.82,Yes,No
+44,77,Female,Benign,2.22,Skin,Stage II,No,Yes,No,,1.18,No,Yes
+45,88,Male,Benign,8.62,Colon,Stage III,No,No,No,0.79,1.01,No,Yes
+46,61,Female,Malignant,5.18,Colon,Stage III,No,No,Yes,0.14,1.74,Yes,No
+47,25,Male,Malignant,2.85,Breast,Stage I,Yes,Yes,No,0.55,0.3,Yes,No
+48,64,Female,Malignant,8.77,Lung,Stage IV,No,Yes,No,0.11,1.15,Yes,Yes
+49,52,Female,Malignant,4.73,Breast,Stage I,Yes,No,No,0.05,1.07,No,Yes
+50,53,Male,Benign,5.39,Breast,Stage III,Yes,Yes,Yes,,0.63,Yes,Yes
+51,67,Female,Malignant,3.91,Brain,Stage I,No,Yes,Yes,0.54,,No,Yes
+52,21,Female,Benign,6.13,Skin,Stage III,Yes,Yes,Yes,,1.53,No,Yes
+53,19,Male,Benign,2.05,Colon,,Yes,Yes,No,0.03,1.49,No,No
+54,23,Female,Benign,4.22,Lung,Stage II,Yes,No,Yes,0.99,1.76,No,No
+55,71,Male,Benign,,Colon,Stage I,No,No,No,0.03,1.47,,No
+56,21,Female,Benign,,Colon,Stage II,Yes,No,Yes,0.44,0.54,No,No
+57,71,Male,Malignant,6.74,Skin,Stage II,Yes,No,Yes,0.5,1.44,No,Yes
+58,80,Male,Malignant,3.59,Colon,Stage IV,No,Yes,No,,0.68,Yes,Yes
+59,35,Female,Malignant,7.85,Colon,,Yes,Yes,Yes,0.17,0.56,No,No
+60,61,Female,Malignant,1.74,Breast,Stage II,Yes,No,No,0.35,0.24,No,Yes
+61,51,Female,Benign,9.71,Skin,Stage I,No,No,Yes,0.76,1.51,No,No
+62,79,Female,Malignant,4.81,Brain,Stage III,Yes,Yes,Yes,0.51,1.45,Yes,Yes
+63,31,Female,Benign,2.74,Lung,Stage IV,Yes,No,No,0.64,0.55,No,Yes
+64,65,Male,Malignant,,Colon,Stage II,Yes,No,No,0.99,1.52,No,Yes
+65,32,Female,Benign,2.11,Lung,Stage IV,Yes,Yes,No,0.77,1.84,Yes,No
+66,89,Male,Benign,5.44,Brain,Stage I,Yes,No,Yes,0.43,0.31,Yes,No
+67,79,Male,Malignant,3.7,Lung,Stage II,No,Yes,Yes,0.45,,No,No
+68,57,Female,Benign,8.37,Brain,,No,Yes,Yes,,1.53,No,No
+69,70,Male,Benign,4.59,Breast,Stage IV,No,No,No,0.67,0.62,Yes,Yes
+70,41,Male,Malignant,2.86,Colon,Stage I,No,Yes,No,0.5,1.29,No,Yes
+71,43,Male,Benign,6.36,Brain,Stage IV,Yes,No,No,0.64,0.25,Yes,Yes
+72,77,Male,Malignant,7.21,Lung,Stage I,Yes,Yes,Yes,0.02,0.96,No,Yes
+73,58,Female,Malignant,,Colon,Stage IV,Yes,No,Yes,0.43,1.5,Yes,No
+74,46,Male,Malignant,2.09,Breast,Stage III,Yes,No,No,0.28,,,Yes
+75,32,Female,Benign,0.85,Colon,Stage I,Yes,No,Yes,0.13,1.65,Yes,Yes
+76,62,Female,Benign,7.5,Brain,Stage I,No,Yes,No,0.1,1.77,Yes,Yes
+77,82,Male,Benign,,Breast,Stage III,No,Yes,Yes,,1.57,Yes,No
+78,88,Female,Malignant,,Lung,Stage III,Yes,No,Yes,0.52,1.38,,No
+79,26,Female,Benign,,Breast,Stage I,Yes,Yes,No,,0.16,Yes,No
+80,18,Female,Malignant,8.15,Breast,Stage III,Yes,No,Yes,,1.12,No,Yes
+81,25,Male,Malignant,6.06,Skin,Stage II,No,No,Yes,0.49,,No,No
+82,80,Female,Benign,8.75,Breast,Stage IV,Yes,Yes,No,0.2,1.64,Yes,Yes
+83,28,Female,Malignant,2.46,Breast,Stage IV,Yes,No,No,0.65,0.71,No,Yes
+84,25,Female,Benign,1.56,Colon,Stage IV,Yes,Yes,Yes,0.78,1.17,No,Yes
+85,52,Male,Benign,3.06,Lung,Stage II,No,No,No,0.79,0.63,No,No
+86,52,Female,Benign,1.04,Colon,Stage III,Yes,Yes,Yes,0.6,1.59,No,No
+87,50,Male,Benign,5.55,Colon,Stage III,No,No,No,0.51,1.78,No,Yes
+88,22,Male,Benign,9.4,Brain,Stage I,No,No,Yes,0.06,0.86,,Yes
+89,58,Male,Malignant,0.87,Colon,Stage III,No,Yes,Yes,0.29,1.74,Yes,No
+90,45,Male,Malignant,1.66,Skin,Stage I,No,No,No,0.09,0.61,No,No
+91,24,Male,Malignant,,Skin,,No,No,Yes,0.96,,No,No
+92,89,Male,Benign,9.37,Brain,Stage IV,No,Yes,Yes,0.14,1.73,No,Yes
+93,29,Female,Benign,3.5,Lung,Stage IV,Yes,No,No,0.15,0.72,Yes,Yes
+94,51,Male,Benign,5.32,Lung,Stage IV,Yes,Yes,No,0.89,1.91,No,Yes
+95,50,Female,Malignant,0.89,Colon,Stage III,Yes,No,Yes,0.94,0.33,,No
+96,65,Female,Benign,1.91,Colon,,No,Yes,No,0.77,0.13,No,No
+97,40,Male,Malignant,9.87,Colon,Stage I,Yes,No,No,0.01,,Yes,No
+98,79,Female,Malignant,9.67,Lung,Stage II,No,No,Yes,0.0,0.23,No,Yes
+99,54,Female,Benign,0.55,Breast,Stage III,No,No,Yes,0.38,1.98,Yes,Yes
+100,61,Female,Benign,9.54,Skin,Stage II,No,Yes,No,0.14,1.91,No,No
+101,52,Female,Malignant,6.57,Breast,Stage I,Yes,Yes,No,0.02,0.36,Yes,Yes
+102,82,Male,Benign,8.75,Breast,Stage I,No,Yes,No,0.46,1.12,Yes,No
+103,64,Female,Malignant,4.82,Lung,Stage IV,No,Yes,Yes,0.94,0.45,Yes,Yes
+104,20,Male,Benign,5.4,Breast,Stage III,Yes,No,Yes,0.32,0.91,No,No
+105,18,Female,Benign,5.14,Brain,Stage I,Yes,No,Yes,0.66,0.22,Yes,Yes
+106,22,Female,Malignant,6.84,Colon,Stage IV,No,Yes,Yes,0.65,0.53,Yes,Yes
+107,31,Male,Benign,1.83,Brain,Stage III,No,Yes,Yes,0.25,0.79,Yes,No
+108,44,Female,Malignant,0.78,Skin,Stage II,Yes,Yes,Yes,0.65,0.93,Yes,No
+109,26,Female,Benign,3.43,Colon,Stage III,Yes,No,Yes,0.21,,No,No
+110,32,Female,Malignant,,Breast,Stage III,Yes,Yes,No,0.12,,No,No
+111,59,Male,Malignant,2.42,Skin,Stage I,No,Yes,No,0.7,1.5,No,No
+112,68,Female,Benign,6.9,Colon,Stage I,Yes,No,Yes,0.11,1.12,,Yes
+113,80,Male,Malignant,9.71,Breast,Stage III,Yes,No,Yes,1.0,1.7,Yes,No
+114,69,Female,Benign,1.39,Brain,Stage I,Yes,Yes,Yes,0.18,0.74,No,No
+115,21,Male,Benign,6.89,Colon,Stage I,No,No,No,0.59,1.45,Yes,No
+116,40,Male,Benign,4.72,Breast,Stage I,Yes,Yes,Yes,,1.99,No,Yes
+117,32,Female,Malignant,8.75,Brain,Stage IV,Yes,No,No,0.13,0.7,No,No
+118,60,Female,Malignant,2.18,Skin,Stage IV,Yes,Yes,No,0.03,1.38,No,No
+119,46,Male,Benign,7.08,Skin,Stage III,Yes,Yes,No,0.62,1.7,,No
+120,53,Male,Benign,8.46,Skin,Stage I,Yes,Yes,No,0.81,1.84,No,Yes
+121,30,Female,Malignant,9.47,Skin,Stage IV,No,Yes,No,0.84,1.46,No,Yes
+122,49,Male,Benign,6.99,Lung,Stage III,No,No,Yes,0.48,0.64,No,No
+123,88,Female,Benign,5.22,Colon,Stage I,No,No,Yes,0.78,0.72,Yes,Yes
+124,76,Female,Malignant,6.37,Colon,Stage II,Yes,No,No,0.67,0.14,No,No
+125,45,Female,Benign,8.75,Lung,Stage I,No,No,Yes,0.72,1.55,No,Yes
+126,83,Female,Malignant,5.92,Breast,Stage I,No,Yes,No,0.49,0.18,Yes,No
+127,59,Male,Benign,0.79,Breast,,No,Yes,No,0.63,1.74,Yes,Yes
+128,62,Female,Malignant,9.34,Skin,Stage III,Yes,No,Yes,0.81,0.33,,No
+129,79,Male,Benign,7.05,Brain,Stage III,Yes,No,Yes,0.4,0.43,No,No
+130,74,Female,Benign,6.93,Breast,Stage IV,No,No,Yes,0.81,1.01,,Yes
+131,23,Male,Malignant,2.55,Brain,Stage I,No,No,Yes,0.59,1.5,Yes,No
+132,45,Female,Benign,6.76,Colon,Stage II,Yes,No,Yes,0.17,0.36,Yes,No
+133,45,Male,Malignant,,Brain,Stage I,Yes,Yes,No,0.02,0.94,Yes,No
+134,61,Male,Benign,,Colon,Stage I,No,Yes,Yes,0.36,1.02,No,No
+135,47,Female,Malignant,1.51,Lung,Stage II,Yes,Yes,Yes,0.55,0.5,Yes,Yes
+136,79,Female,Malignant,,Lung,Stage IV,No,No,Yes,0.84,0.32,No,No
+137,79,Female,Malignant,,Skin,Stage III,Yes,No,No,0.13,,Yes,Yes
+138,18,Female,Malignant,0.96,Breast,Stage IV,No,No,Yes,0.8,,Yes,Yes
+139,44,Male,Benign,9.78,Skin,Stage IV,No,No,No,0.86,0.13,Yes,Yes
+140,79,Female,Benign,4.37,Colon,Stage I,Yes,Yes,Yes,0.15,1.63,No,Yes
+141,20,Male,Malignant,8.77,Skin,Stage III,No,Yes,Yes,0.85,1.96,No,No
+142,87,Male,Malignant,7.93,Brain,,No,No,No,0.99,1.25,No,No
+143,89,Female,Malignant,5.89,Colon,Stage IV,No,Yes,Yes,0.73,1.06,No,Yes
+144,44,Male,Benign,7.52,Lung,Stage II,Yes,Yes,Yes,0.78,,,No
+145,26,Male,Benign,8.85,Breast,Stage IV,Yes,No,No,0.99,1.91,No,Yes
+146,79,Male,Benign,4.34,Colon,Stage II,Yes,No,Yes,0.61,1.53,Yes,No
+147,54,Male,Benign,3.61,Colon,Stage III,No,No,No,0.31,0.95,No,No
+148,68,Female,Malignant,6.84,Brain,Stage IV,Yes,No,No,0.84,1.23,No,No
+149,61,Female,Malignant,,Breast,Stage I,No,No,No,0.61,,Yes,Yes
+150,41,Female,Malignant,7.74,Lung,Stage IV,No,No,No,0.58,0.47,Yes,Yes
+151,76,Female,Benign,8.08,Colon,Stage III,Yes,Yes,No,0.25,0.95,,No
+152,49,Male,Benign,4.64,Colon,Stage I,Yes,Yes,Yes,0.76,1.68,No,Yes
+153,69,Male,Benign,8.27,Brain,Stage I,No,No,Yes,0.08,1.34,Yes,Yes
+154,79,Female,Malignant,1.64,Skin,Stage II,No,Yes,Yes,0.92,0.88,Yes,No
+155,75,Female,Malignant,5.67,Lung,Stage I,Yes,No,No,,,Yes,Yes
+156,69,Female,Benign,,Breast,Stage I,Yes,No,No,0.13,0.32,Yes,No
+157,29,Male,Malignant,3.58,Colon,,Yes,No,No,0.44,0.86,Yes,No
+158,56,Female,Benign,3.98,Colon,Stage III,No,No,No,0.04,1.61,No,No
+159,19,Female,Benign,,Lung,Stage II,No,Yes,Yes,0.68,0.52,,Yes
+160,20,Female,Malignant,7.11,Skin,Stage IV,No,No,Yes,,0.45,No,No
+161,73,Male,Benign,4.19,Colon,Stage I,No,Yes,No,0.84,1.91,No,No
+162,76,Male,Malignant,4.76,Lung,Stage I,No,No,No,0.13,0.5,Yes,Yes
+163,19,Male,Benign,2.76,Brain,Stage II,Yes,No,Yes,0.13,0.6,Yes,Yes
+164,19,Male,Malignant,4.05,Skin,Stage III,Yes,No,No,,1.94,Yes,Yes
+165,71,Male,Malignant,2.66,Breast,,No,Yes,No,0.92,1.5,No,Yes
+166,18,Male,Malignant,1.2,Colon,Stage IV,No,No,No,0.46,1.43,Yes,No
+167,36,Male,Benign,6.23,Lung,Stage II,Yes,No,Yes,0.5,1.72,Yes,Yes
+168,19,Male,Benign,6.85,Brain,Stage I,Yes,No,Yes,0.32,0.32,No,Yes
+169,70,Female,Malignant,6.39,Breast,Stage IV,Yes,Yes,No,0.89,,,Yes
+170,61,Female,Malignant,4.9,Lung,,Yes,Yes,Yes,0.64,1.06,No,Yes
+171,49,Male,Benign,4.11,Lung,Stage III,No,Yes,No,0.29,1.68,Yes,No
+172,87,Male,Benign,8.7,Breast,Stage I,Yes,No,No,0.3,1.07,Yes,Yes
+173,49,Female,Benign,5.43,Brain,Stage I,No,Yes,Yes,0.89,1.28,No,No
+174,85,Male,Malignant,5.05,Brain,Stage II,Yes,No,No,,1.01,No,Yes
+175,72,Male,Benign,,Skin,Stage I,Yes,Yes,No,0.32,1.01,Yes,No
+176,73,Male,Benign,3.74,Colon,Stage IV,Yes,Yes,Yes,0.55,1.56,No,No
+177,34,Female,Malignant,,Breast,Stage IV,No,No,No,0.15,1.29,Yes,Yes
+178,55,Female,Benign,4.29,Breast,Stage III,No,Yes,No,0.09,1.3,No,No
+179,41,Female,Benign,6.01,Breast,Stage IV,Yes,No,No,0.82,0.96,No,Yes
+180,86,Female,Benign,5.57,Brain,Stage II,No,No,Yes,0.89,,No,No
+181,87,Female,Malignant,6.28,Colon,Stage III,No,Yes,No,0.82,1.52,,No
+182,28,Male,Malignant,,Skin,,Yes,No,Yes,0.9,,Yes,No
+183,33,Female,Malignant,8.22,Lung,Stage II,Yes,No,No,0.55,1.42,No,Yes
+184,76,Male,Malignant,7.32,Lung,Stage IV,No,Yes,No,0.81,1.86,Yes,No
+185,87,Male,Malignant,9.58,Breast,,No,Yes,No,,1.66,No,Yes
+186,20,Female,Malignant,0.67,Colon,Stage I,No,No,No,0.67,1.17,,No
+187,37,Female,Malignant,2.36,Brain,Stage IV,Yes,Yes,Yes,0.99,1.38,,No
+188,76,Male,Benign,0.57,Colon,Stage IV,Yes,No,Yes,0.23,1.86,Yes,No
+189,53,Male,Benign,6.65,Colon,Stage II,No,No,No,0.39,,Yes,No
+190,36,Male,Malignant,9.03,Brain,Stage II,Yes,Yes,No,0.48,1.67,Yes,No
+191,84,Female,Benign,2.81,Breast,Stage I,Yes,Yes,No,0.14,1.41,No,No
+192,36,Female,Benign,9.31,Colon,Stage IV,No,Yes,No,0.08,1.15,Yes,Yes
+193,37,Female,Malignant,1.07,Lung,Stage I,No,Yes,No,0.83,0.56,Yes,Yes
+194,88,Female,Benign,9.38,Brain,Stage IV,Yes,No,No,0.98,0.91,No,Yes
+195,69,Female,Benign,3.84,Skin,Stage III,Yes,No,No,0.4,1.94,No,No
+196,50,Male,Benign,1.46,Breast,Stage III,No,Yes,No,0.09,1.35,No,Yes
+197,57,Female,Benign,5.12,Brain,Stage I,Yes,Yes,Yes,,1.17,No,No
+198,56,Male,Benign,2.94,Skin,,Yes,No,Yes,0.89,,Yes,Yes
+199,18,Male,Malignant,3.21,Skin,Stage I,No,No,Yes,,1.21,Yes,Yes
+200,28,Male,Malignant,,Colon,Stage II,No,No,No,0.32,1.1,,No
+201,74,Female,Malignant,8.13,Colon,Stage II,Yes,No,No,,,No,No
+202,67,Female,Benign,5.62,Colon,Stage II,Yes,Yes,No,0.32,1.45,Yes,Yes
+203,40,Female,Malignant,3.46,Brain,Stage I,Yes,No,Yes,0.49,,Yes,Yes
+204,48,Male,Benign,6.3,Brain,Stage IV,No,No,No,0.86,1.0,Yes,Yes
+205,59,Male,Benign,7.3,Breast,Stage III,Yes,Yes,Yes,0.59,1.0,Yes,Yes
+206,24,Male,Benign,3.09,Colon,Stage I,Yes,No,No,0.69,0.82,Yes,No
+207,33,Male,Benign,4.43,Skin,Stage II,No,No,Yes,0.36,1.08,No,Yes
+208,77,Male,Malignant,1.66,Lung,Stage II,No,Yes,Yes,0.74,0.88,,No
+209,19,Male,Malignant,2.22,Breast,Stage I,Yes,Yes,Yes,0.67,0.48,,No
+210,18,Female,Benign,6.97,Brain,Stage I,No,Yes,No,0.12,0.88,No,Yes
+211,65,Female,Malignant,2.22,Breast,Stage II,No,No,Yes,0.57,0.24,Yes,No
+212,29,Female,Benign,,Breast,Stage IV,Yes,No,No,0.26,,,Yes
+213,86,Female,Malignant,,Breast,Stage II,No,Yes,No,0.8,1.72,Yes,No
+214,54,Male,Malignant,1.52,Breast,Stage II,No,Yes,No,0.43,1.48,Yes,No
+215,49,Male,Benign,5.89,Lung,Stage I,Yes,No,No,0.99,,Yes,Yes
+216,26,Female,Malignant,2.94,Colon,Stage IV,No,Yes,No,0.09,0.27,Yes,No
+217,36,Male,Benign,9.65,Skin,Stage II,Yes,Yes,Yes,0.78,0.48,Yes,No
+218,65,Female,Malignant,5.09,Breast,Stage II,Yes,Yes,No,0.67,1.14,Yes,Yes
+219,20,Female,Benign,8.16,Breast,Stage III,No,No,No,0.77,0.49,Yes,No
+220,37,Female,Benign,5.73,Breast,Stage I,No,No,No,0.31,1.13,No,No
+221,41,Male,Malignant,0.91,Colon,Stage III,No,No,No,0.49,0.54,,Yes
+222,71,Female,Malignant,6.51,Brain,Stage III,Yes,No,No,0.8,1.71,No,Yes
+223,50,Female,Benign,9.54,Brain,Stage II,No,No,Yes,0.23,0.85,No,No
+224,41,Female,Malignant,,Lung,Stage I,Yes,No,Yes,0.23,0.57,,No
+225,89,Male,Malignant,8.28,Brain,,No,Yes,No,0.55,1.64,Yes,No
+226,53,Male,Benign,8.9,Breast,Stage II,No,No,Yes,0.52,0.75,No,Yes
+227,55,Female,Benign,2.67,Breast,Stage IV,No,No,Yes,0.28,0.31,No,No
+228,42,Male,Malignant,2.51,Breast,Stage IV,Yes,Yes,No,0.3,1.18,,No
+229,35,Male,Benign,6.3,Lung,Stage I,No,No,Yes,0.28,1.2,No,No
+230,83,Male,Benign,4.4,Breast,Stage III,No,No,No,0.77,1.46,Yes,No
+231,71,Male,Benign,8.48,Brain,Stage I,Yes,Yes,Yes,0.65,0.56,Yes,No
+232,52,Male,Malignant,9.05,Colon,Stage IV,Yes,Yes,Yes,,0.94,Yes,No
+233,78,Male,Malignant,3.86,Colon,Stage II,No,Yes,Yes,0.98,0.64,No,Yes
+234,58,Male,Benign,2.75,Skin,,No,No,No,,0.25,Yes,Yes
+235,50,Male,Malignant,,Brain,Stage II,No,Yes,Yes,,,No,No
+236,85,Male,Benign,3.11,Breast,Stage II,Yes,No,Yes,0.05,1.48,Yes,No
+237,50,Male,Malignant,8.31,Colon,Stage I,Yes,No,No,0.3,0.67,No,Yes
+238,31,Female,Benign,4.53,Brain,Stage IV,Yes,No,No,,1.24,Yes,Yes
+239,38,Female,Benign,6.84,Colon,Stage III,Yes,No,Yes,0.52,0.48,Yes,Yes
+240,65,Male,Malignant,1.41,Breast,Stage IV,No,Yes,No,0.27,1.79,No,No
+241,37,Female,Benign,6.43,Colon,,Yes,Yes,Yes,0.4,0.32,No,No
+242,25,Female,Malignant,4.79,Skin,Stage III,Yes,No,Yes,0.6,0.11,,No
+243,24,Male,Malignant,6.07,Skin,Stage I,Yes,Yes,No,0.65,1.05,No,No
+244,84,Male,Benign,2.1,Colon,Stage IV,No,No,No,0.15,1.21,No,Yes
+245,34,Male,Benign,7.5,Brain,Stage IV,No,No,No,,1.2,Yes,Yes
+246,50,Female,Malignant,8.7,Brain,Stage II,Yes,No,Yes,,0.2,No,Yes
+247,65,Female,Benign,2.56,Brain,Stage IV,Yes,Yes,No,,0.7,Yes,Yes
+248,76,Male,Benign,1.41,Colon,Stage III,No,No,Yes,0.89,1.05,Yes,No
+249,39,Male,Benign,,Brain,Stage II,No,No,No,0.07,0.51,Yes,No
+250,47,Male,Benign,6.6,Breast,Stage I,No,Yes,Yes,0.91,1.76,Yes,Yes
+251,55,Female,Benign,6.27,Skin,Stage II,No,Yes,No,1.0,0.27,Yes,Yes
+252,68,Female,Malignant,5.69,Breast,Stage III,No,Yes,Yes,,1.03,,Yes
+253,71,Female,Malignant,2.7,Brain,Stage III,No,Yes,No,0.77,1.41,No,Yes
+254,25,Female,Benign,4.21,Breast,Stage II,No,No,Yes,0.34,0.6,Yes,Yes
+255,44,Male,Benign,,Brain,Stage I,No,Yes,No,0.94,,Yes,No
+256,44,Male,Benign,5.22,Colon,Stage II,Yes,No,No,0.53,1.68,No,No
+257,38,Male,Malignant,,Breast,Stage I,Yes,Yes,Yes,0.73,0.46,No,Yes
+258,47,Male,Benign,1.8,Colon,Stage II,Yes,Yes,No,,1.84,Yes,Yes
+259,45,Female,Malignant,7.1,Colon,Stage III,Yes,Yes,Yes,0.98,1.15,No,Yes
+260,81,Female,Malignant,4.34,Lung,Stage IV,Yes,Yes,Yes,0.83,,No,No
+261,86,Male,Malignant,4.57,Brain,Stage IV,Yes,Yes,No,0.3,0.92,No,No
+262,78,Male,Benign,7.32,Skin,Stage I,No,Yes,Yes,0.97,0.69,Yes,No
+263,65,Female,Malignant,7.08,Brain,Stage I,No,No,No,0.63,1.48,No,Yes
+264,36,Male,Benign,9.92,Skin,Stage I,Yes,Yes,No,0.93,1.61,Yes,No
+265,21,Female,Malignant,1.72,Brain,Stage III,Yes,Yes,Yes,0.68,,Yes,Yes
+266,52,Male,Benign,1.49,Colon,Stage II,No,Yes,No,0.31,1.97,Yes,No
+267,81,Male,Malignant,7.38,Breast,Stage III,No,Yes,Yes,0.37,1.6,Yes,No
+268,66,Male,Benign,5.99,Breast,Stage IV,No,No,Yes,0.55,1.24,Yes,No
+269,34,Male,Malignant,3.1,Lung,Stage I,Yes,Yes,No,0.79,0.74,No,Yes
+270,61,Male,Benign,1.25,Skin,,No,Yes,No,0.32,1.13,Yes,Yes
+271,47,Male,Benign,1.31,Skin,Stage IV,Yes,Yes,Yes,0.58,0.18,Yes,No
+272,63,Male,Benign,8.99,Skin,Stage IV,Yes,Yes,Yes,,1.52,Yes,Yes
+273,23,Female,Benign,2.32,Colon,Stage IV,No,No,No,0.82,0.95,No,Yes
+274,54,Female,Malignant,3.57,Skin,Stage III,No,Yes,No,0.47,0.14,No,Yes
+275,41,Female,Malignant,2.65,Breast,Stage I,Yes,No,No,0.08,,No,Yes
+276,63,Female,Benign,3.87,Colon,,No,Yes,No,,0.84,No,Yes
+277,70,Female,Malignant,1.16,Brain,Stage I,No,No,Yes,0.06,1.21,No,Yes
+278,77,Male,Benign,5.43,Skin,Stage III,Yes,No,No,0.5,0.98,No,Yes
+279,80,Male,Benign,1.14,Skin,Stage IV,No,Yes,Yes,0.11,1.28,No,No
+280,49,Female,Malignant,8.1,Brain,Stage III,Yes,Yes,Yes,0.11,1.01,Yes,Yes
+281,50,Male,Benign,2.72,Skin,,Yes,No,No,0.94,1.36,Yes,Yes
+282,84,Female,Benign,5.63,Brain,Stage I,No,No,Yes,0.87,0.52,,No
+283,35,Female,Malignant,8.86,Colon,,Yes,Yes,No,0.45,0.31,Yes,No
+284,42,Male,Benign,6.68,Breast,Stage III,Yes,No,Yes,0.99,1.23,Yes,No
+285,71,Male,Benign,,Brain,Stage IV,No,No,No,0.0,1.02,No,No
+286,75,Male,Benign,3.58,Lung,Stage I,No,No,Yes,0.61,,Yes,Yes
+287,84,Female,Benign,3.66,Brain,Stage III,No,Yes,Yes,0.62,0.82,,No
+288,63,Male,Malignant,6.86,Skin,Stage I,Yes,No,No,0.46,0.3,,No
+289,41,Female,Malignant,9.94,Colon,Stage IV,Yes,No,No,0.4,1.11,Yes,Yes
+290,49,Female,Malignant,,Colon,Stage IV,No,No,Yes,0.46,0.85,No,Yes
+291,64,Female,Benign,,Brain,Stage I,Yes,Yes,Yes,0.41,1.26,No,Yes
+292,40,Male,Benign,7.44,Breast,Stage II,No,Yes,No,0.73,1.63,Yes,No
+293,83,Male,Malignant,4.92,Lung,Stage III,No,No,Yes,0.14,0.67,,Yes
+294,44,Female,Benign,1.07,Colon,,Yes,Yes,No,0.2,1.93,Yes,No
+295,19,Male,Benign,5.84,Skin,Stage IV,No,No,Yes,0.18,1.12,No,Yes
+296,34,Male,Benign,9.6,Skin,Stage III,Yes,Yes,No,0.26,1.27,No,Yes
+297,50,Male,Benign,2.17,Breast,,Yes,Yes,Yes,0.53,1.39,No,No
+298,26,Female,Malignant,7.06,Colon,,No,No,No,0.11,,Yes,Yes
+299,60,Female,Malignant,2.41,Brain,Stage I,Yes,Yes,No,0.87,1.07,Yes,Yes
+300,65,Male,Malignant,5.59,Skin,Stage II,No,Yes,Yes,0.3,0.91,No,Yes
+301,56,Female,Benign,,Breast,Stage II,Yes,Yes,No,,0.2,Yes,Yes
+302,59,Male,Malignant,4.78,Colon,Stage IV,Yes,No,Yes,0.68,0.14,Yes,Yes
+303,43,Male,Malignant,7.68,Colon,Stage I,Yes,Yes,No,0.04,0.78,No,No
+304,67,Male,Benign,3.8,Colon,,No,Yes,No,,,No,No
+305,42,Male,Benign,6.82,Colon,Stage IV,Yes,No,No,0.7,0.84,Yes,Yes
+306,41,Female,Malignant,8.06,Colon,Stage III,No,Yes,Yes,0.21,0.36,,No
+307,30,Female,Malignant,9.31,Skin,Stage IV,Yes,Yes,No,,1.5,Yes,No
+308,77,Female,Malignant,2.73,Breast,Stage II,Yes,Yes,Yes,0.36,1.73,No,No
+309,24,Male,Malignant,4.29,Colon,Stage IV,No,Yes,No,0.1,1.88,No,Yes
+310,74,Male,Benign,1.95,Lung,Stage II,No,Yes,Yes,,1.04,No,Yes
+311,53,Male,Malignant,9.93,Lung,Stage IV,No,No,Yes,0.25,1.43,Yes,Yes
+312,62,Female,Malignant,9.31,Breast,Stage I,No,No,Yes,0.3,1.73,Yes,No
+313,37,Male,Benign,5.63,Brain,Stage III,No,Yes,No,0.53,0.89,No,No
+314,82,Female,Malignant,8.5,Brain,Stage I,Yes,Yes,Yes,0.68,0.69,No,Yes
+315,25,Female,Benign,5.45,Brain,,Yes,Yes,No,0.59,1.88,,Yes
+316,33,Female,Benign,6.42,Lung,Stage IV,No,No,Yes,0.15,1.08,Yes,No
+317,31,Female,Benign,1.35,Brain,Stage IV,Yes,No,Yes,,1.04,No,No
+318,32,Female,Malignant,7.68,Skin,,Yes,Yes,Yes,0.88,0.44,No,Yes
+319,83,Female,Malignant,1.71,Colon,,Yes,Yes,Yes,0.56,0.31,No,No
+320,49,Male,Benign,8.35,Lung,Stage III,No,No,No,0.87,1.7,No,No
+321,80,Male,Malignant,7.93,Breast,Stage IV,Yes,Yes,Yes,0.37,1.27,Yes,No
+322,68,Female,Malignant,,Breast,Stage IV,Yes,No,Yes,0.61,0.72,Yes,No
+323,42,Female,Benign,0.84,Colon,Stage II,Yes,No,No,0.52,0.46,No,No
+324,75,Male,Benign,3.38,Lung,Stage I,No,Yes,Yes,0.32,1.16,Yes,No
+325,80,Female,Malignant,3.0,Brain,Stage I,Yes,No,Yes,0.47,,Yes,No
+326,79,Female,Benign,3.92,Brain,,Yes,Yes,Yes,0.5,0.49,,Yes
+327,39,Male,Malignant,1.33,Skin,Stage II,No,Yes,Yes,,,No,Yes
+328,75,Female,Malignant,9.4,Skin,Stage IV,No,Yes,No,0.32,0.26,Yes,No
+329,75,Female,Malignant,,Brain,Stage III,Yes,Yes,No,0.79,0.78,Yes,No
+330,66,Female,Malignant,3.4,Breast,Stage II,Yes,Yes,Yes,0.92,1.39,Yes,No
+331,69,Male,Benign,4.27,Breast,Stage I,No,Yes,No,0.36,0.62,No,Yes
+332,59,Male,Benign,,Skin,Stage II,No,No,No,0.31,1.67,No,Yes
+333,87,Male,Benign,6.21,Colon,Stage I,No,No,Yes,0.2,1.51,Yes,No
+334,32,Female,Benign,5.4,Brain,Stage II,No,No,No,0.68,1.6,Yes,Yes
+335,71,Female,Malignant,9.23,Skin,,No,No,Yes,0.32,0.33,No,No
+336,77,Male,Malignant,5.22,Skin,Stage I,No,Yes,No,0.99,0.37,No,No
+337,25,Female,Benign,9.93,Brain,Stage III,No,No,No,0.33,0.64,Yes,No
+338,70,Female,Malignant,8.59,Brain,Stage III,Yes,No,No,0.39,1.08,Yes,No
+339,77,Female,Malignant,,Breast,Stage I,No,No,Yes,0.6,1.52,No,No
+340,22,Female,Malignant,9.34,Colon,Stage I,No,Yes,No,,1.69,No,No
+341,85,Female,Benign,1.61,Colon,Stage IV,Yes,No,Yes,0.47,1.44,Yes,No
+342,23,Male,Benign,8.27,Brain,Stage IV,No,Yes,Yes,0.42,,No,Yes
+343,64,Female,Benign,4.12,Lung,Stage IV,No,No,No,1.0,,Yes,No
+344,72,Male,Malignant,8.84,Skin,Stage III,Yes,Yes,Yes,0.01,0.68,Yes,Yes
+345,57,Female,Benign,8.75,Skin,Stage III,No,Yes,No,0.9,0.6,Yes,No
+346,69,Male,Benign,8.16,Brain,Stage IV,Yes,No,Yes,0.15,1.42,No,No
+347,33,Female,Benign,,Lung,Stage III,Yes,Yes,Yes,0.79,0.47,Yes,Yes
+348,30,Male,Benign,3.39,Breast,Stage III,Yes,Yes,No,0.62,0.28,Yes,Yes
+349,47,Female,Benign,1.27,Brain,Stage I,Yes,No,No,0.34,1.11,No,No
+350,36,Male,Benign,4.33,Brain,Stage I,No,No,No,0.87,,,Yes
+351,34,Female,Malignant,2.15,Skin,,Yes,No,No,,0.29,,No
+352,80,Male,Malignant,7.1,Brain,,Yes,Yes,Yes,0.23,1.6,Yes,No
+353,36,Female,Benign,,Brain,Stage II,No,Yes,Yes,0.57,1.64,No,Yes
+354,75,Male,Benign,9.77,Brain,Stage IV,Yes,Yes,Yes,0.35,1.02,No,Yes
+355,72,Male,Malignant,6.59,Skin,,Yes,No,No,0.61,0.21,No,Yes
+356,79,Female,Malignant,8.31,Breast,Stage IV,Yes,Yes,Yes,0.02,0.43,Yes,Yes
+357,40,Female,Benign,,Breast,Stage I,Yes,Yes,No,0.12,1.44,Yes,No
+358,26,Male,Benign,8.69,Brain,Stage III,No,Yes,Yes,0.13,1.45,Yes,Yes
+359,29,Female,Benign,9.27,Skin,Stage III,Yes,Yes,No,,1.81,No,Yes
+360,18,Male,Benign,5.13,Breast,Stage I,No,Yes,Yes,0.46,1.21,Yes,Yes
+361,75,Male,Malignant,,Breast,Stage II,No,Yes,Yes,0.75,0.34,No,Yes
+362,18,Male,Benign,7.77,Breast,Stage II,Yes,Yes,No,0.91,0.33,Yes,Yes
+363,51,Female,Benign,2.16,Skin,,Yes,No,Yes,0.84,1.47,No,No
+364,65,Male,Benign,5.27,Skin,Stage I,Yes,No,No,0.2,0.45,Yes,No
+365,18,Male,Benign,4.29,Brain,Stage II,Yes,No,Yes,0.44,0.72,Yes,Yes
+366,33,Female,Malignant,1.89,Colon,Stage I,No,Yes,Yes,0.2,1.03,No,Yes
+367,78,Female,Malignant,3.99,Breast,,No,Yes,No,0.26,0.15,No,No
+368,81,Female,Malignant,1.15,Colon,,No,No,No,0.5,0.57,Yes,Yes
+369,80,Female,Benign,0.75,Skin,Stage I,Yes,Yes,Yes,0.07,0.87,No,No
+370,86,Male,Benign,,Skin,Stage III,No,No,Yes,0.22,0.63,No,No
+371,39,Male,Malignant,9.65,Skin,Stage IV,Yes,Yes,Yes,0.94,0.36,Yes,Yes
+372,84,Male,Benign,5.72,Colon,Stage II,Yes,Yes,Yes,0.47,1.48,No,No
+373,43,Male,Benign,9.68,Skin,Stage I,Yes,No,Yes,0.45,1.64,Yes,Yes
+374,33,Female,Malignant,4.61,Brain,Stage II,Yes,No,Yes,0.01,0.59,Yes,Yes
+375,68,Male,Malignant,3.46,Skin,Stage II,Yes,No,No,0.25,1.57,No,No
+376,74,Male,Malignant,5.31,Lung,Stage III,No,No,No,0.87,0.83,No,No
+377,46,Female,Malignant,4.68,Colon,Stage II,No,No,No,0.16,1.06,Yes,Yes
+378,86,Male,Benign,1.5,Lung,Stage III,Yes,Yes,Yes,0.42,1.73,Yes,No
+379,64,Male,Benign,6.59,Skin,Stage IV,No,Yes,Yes,0.01,,Yes,Yes
+380,79,Male,Malignant,2.55,Brain,Stage I,Yes,Yes,Yes,0.48,1.63,Yes,No
+381,86,Male,Benign,6.39,Breast,Stage II,Yes,No,No,0.02,0.36,Yes,No
+382,33,Male,Malignant,6.68,Skin,Stage I,Yes,No,No,0.82,0.23,Yes,Yes
+383,65,Male,Malignant,1.94,Brain,,No,No,Yes,0.82,1.8,No,Yes
+384,56,Female,Benign,1.08,Colon,Stage I,Yes,No,Yes,0.79,,No,Yes
+385,50,Female,Malignant,7.92,Lung,Stage II,Yes,No,No,0.28,0.65,No,No
+386,40,Male,Benign,4.87,Lung,Stage II,No,No,No,0.84,1.48,Yes,Yes
+387,27,Male,Benign,1.05,Lung,Stage II,No,Yes,No,0.54,1.69,No,Yes
+388,86,Female,Benign,9.95,Colon,Stage II,No,Yes,Yes,0.37,,Yes,No
+389,51,Male,Benign,1.05,Brain,Stage II,Yes,Yes,Yes,0.63,0.7,Yes,No
+390,69,Male,Malignant,7.1,Colon,Stage II,Yes,Yes,Yes,0.01,1.72,,Yes
+391,27,Male,Benign,9.84,Lung,Stage II,No,Yes,No,0.14,0.18,Yes,Yes
+392,36,Female,Malignant,2.77,Skin,Stage II,Yes,No,No,0.74,0.19,Yes,Yes
+393,75,Male,Malignant,1.85,Breast,Stage II,No,No,Yes,0.24,1.28,Yes,Yes
+394,18,Female,Malignant,1.65,Colon,Stage I,No,No,Yes,0.6,0.22,Yes,No
+395,86,Male,Malignant,3.38,Colon,Stage III,Yes,No,No,0.39,0.72,Yes,No
+396,21,Female,Benign,1.46,Brain,Stage II,Yes,No,Yes,0.85,,Yes,Yes
+397,33,Female,Benign,,Brain,Stage III,No,No,No,0.95,0.74,,Yes
+398,41,Male,Malignant,1.09,Colon,Stage II,No,Yes,No,,0.44,Yes,Yes
+399,19,Female,Malignant,5.34,Lung,Stage II,No,No,Yes,0.27,0.63,Yes,No
+400,49,Male,Benign,9.97,Breast,Stage I,No,No,No,,,,Yes
+401,41,Female,Malignant,8.23,Brain,Stage IV,Yes,No,Yes,0.47,1.0,Yes,Yes
+402,29,Male,Benign,6.34,Lung,Stage IV,No,No,No,0.01,1.59,No,No
+403,67,Male,Malignant,3.41,Skin,,No,Yes,No,0.03,,,No
+404,52,Female,Benign,6.43,Brain,Stage III,No,Yes,Yes,0.55,0.97,Yes,Yes
+405,50,Male,Malignant,5.51,Lung,Stage IV,Yes,No,No,0.52,1.71,Yes,Yes
+406,50,Male,Malignant,4.55,Lung,Stage I,Yes,Yes,Yes,0.99,0.32,Yes,No
+407,78,Female,Benign,1.74,Breast,Stage I,No,Yes,Yes,0.2,0.59,No,Yes
+408,68,Male,Malignant,8.92,Breast,Stage IV,Yes,No,No,0.26,1.67,,Yes
+409,60,Male,Malignant,4.77,Skin,Stage III,Yes,No,Yes,0.11,0.82,No,No
+410,29,Female,Benign,2.35,Lung,Stage I,Yes,No,Yes,0.92,1.96,No,No
+411,84,Female,Malignant,3.99,Lung,Stage II,No,No,Yes,0.78,0.99,Yes,No
+412,82,Male,Benign,4.43,Breast,Stage III,No,No,Yes,0.82,1.6,,Yes
+413,50,Male,Benign,8.36,Brain,Stage III,Yes,Yes,Yes,0.9,0.86,No,No
+414,57,Female,Malignant,7.47,Brain,,No,No,Yes,0.52,0.91,Yes,No
+415,60,Female,Malignant,7.81,Colon,Stage IV,No,No,No,,,Yes,Yes
+416,61,Male,Malignant,0.6,Breast,Stage II,Yes,No,Yes,0.33,1.47,No,Yes
+417,46,Female,Malignant,4.45,Colon,Stage I,Yes,Yes,No,0.59,,No,No
+418,30,Male,Malignant,5.07,Breast,Stage IV,No,No,No,0.45,1.89,No,No
+419,29,Male,Malignant,0.68,Skin,Stage IV,Yes,No,Yes,0.45,0.58,No,Yes
+420,63,Male,Malignant,2.97,Lung,Stage III,No,No,No,0.94,,Yes,Yes
+421,19,Male,Benign,7.72,Skin,Stage IV,No,Yes,No,0.98,,Yes,No
+422,52,Male,Malignant,1.8,Breast,Stage IV,Yes,No,Yes,0.8,1.27,No,No
+423,25,Female,Benign,5.59,Lung,Stage IV,No,No,Yes,0.76,1.74,No,Yes
+424,43,Female,Malignant,2.54,Brain,,No,No,Yes,0.68,0.76,No,No
+425,51,Female,Malignant,0.62,Brain,Stage III,Yes,Yes,No,0.17,1.34,No,Yes
+426,24,Female,Benign,2.79,Colon,Stage II,Yes,No,No,0.06,0.77,No,No
+427,85,Male,Malignant,9.77,Breast,Stage II,Yes,No,Yes,0.69,1.27,Yes,Yes
+428,75,Male,Malignant,8.11,Breast,Stage I,No,No,Yes,0.73,1.78,,Yes
+429,46,Male,Benign,9.62,Brain,Stage IV,Yes,Yes,No,0.05,0.54,Yes,No
+430,53,Male,Malignant,5.13,Skin,Stage III,Yes,No,No,0.93,0.87,No,No
+431,38,Female,Malignant,1.54,Lung,Stage I,Yes,No,No,0.09,1.99,No,Yes
+432,53,Male,Malignant,5.71,Skin,Stage I,Yes,No,No,0.29,1.75,Yes,No
+433,27,Male,Benign,,Skin,Stage II,No,Yes,Yes,0.67,1.17,,No
+434,41,Female,Malignant,8.52,Brain,Stage III,No,Yes,No,0.17,1.08,No,No
+435,81,Female,Malignant,1.43,Brain,,Yes,No,No,0.06,0.64,Yes,Yes
+436,66,Female,Malignant,5.14,Brain,Stage III,No,Yes,No,0.33,1.08,No,No
+437,53,Female,Malignant,1.93,Colon,Stage II,Yes,Yes,No,0.77,1.71,No,No
+438,41,Male,Benign,3.58,Skin,Stage II,Yes,Yes,Yes,0.41,1.4,Yes,Yes
+439,40,Male,Benign,7.5,Breast,Stage II,No,No,Yes,0.65,0.65,Yes,No
+440,79,Female,Malignant,5.02,Lung,Stage II,No,No,No,0.58,0.48,Yes,No
+441,54,Male,Malignant,4.07,Colon,Stage II,Yes,Yes,No,0.02,0.6,No,Yes
+442,29,Male,Benign,4.25,Breast,Stage IV,Yes,Yes,Yes,0.99,0.42,No,Yes
+443,72,Male,Benign,4.86,Skin,Stage IV,No,Yes,Yes,0.04,0.28,Yes,No
+444,30,Female,Malignant,7.96,Brain,,Yes,No,No,0.97,,No,No
+445,40,Male,Benign,8.97,Skin,Stage I,No,No,No,0.55,0.32,No,Yes
+446,47,Female,Malignant,9.58,Lung,Stage III,Yes,Yes,Yes,0.96,0.43,No,Yes
+447,34,Male,Benign,,Colon,Stage I,Yes,Yes,Yes,0.11,1.14,Yes,No
+448,79,Male,Benign,3.5,Colon,Stage II,No,Yes,Yes,,0.41,No,No
+449,30,Male,Benign,7.04,Lung,Stage I,No,Yes,Yes,0.17,0.22,Yes,No
+450,76,Female,Benign,4.66,Breast,Stage III,No,No,Yes,0.05,0.7,Yes,Yes
+451,36,Male,Malignant,2.92,Breast,Stage III,No,Yes,Yes,0.62,0.52,No,No
+452,66,Female,Benign,8.49,Colon,Stage I,No,No,No,0.21,1.08,Yes,Yes
+453,29,Female,Benign,0.87,Colon,Stage IV,No,Yes,Yes,,0.29,No,Yes
+454,78,Female,Malignant,9.07,Brain,,No,Yes,Yes,0.11,1.53,Yes,Yes
+455,36,Male,Benign,4.88,Breast,Stage II,Yes,Yes,Yes,,1.82,Yes,No
+456,26,Male,Benign,6.55,Lung,Stage III,Yes,Yes,Yes,,1.51,No,No
+457,88,Male,Malignant,6.76,Breast,Stage IV,Yes,Yes,No,0.44,1.11,Yes,No
+458,45,Male,Benign,9.0,Brain,Stage I,No,No,No,0.63,1.74,Yes,Yes
+459,69,Female,Malignant,6.55,Colon,Stage II,No,Yes,Yes,0.65,1.42,Yes,No
+460,33,Female,Malignant,6.33,Colon,Stage IV,No,Yes,No,0.84,0.12,No,Yes
+461,86,Female,Malignant,1.13,Brain,Stage II,Yes,Yes,No,0.32,0.85,No,Yes
+462,29,Male,Malignant,5.42,Lung,Stage IV,No,No,No,0.69,1.72,Yes,Yes
+463,42,Female,Benign,1.93,Colon,Stage IV,No,No,No,0.96,0.76,Yes,Yes
+464,69,Male,Malignant,7.51,Skin,Stage III,Yes,No,No,0.73,0.17,Yes,Yes
+465,70,Female,Benign,5.37,Colon,Stage II,No,No,No,0.49,1.52,No,Yes
+466,40,Male,Benign,6.96,Skin,Stage I,Yes,Yes,Yes,0.63,,No,No
+467,33,Male,Benign,0.9,Brain,Stage III,Yes,Yes,Yes,0.74,0.41,Yes,Yes
+468,74,Female,Benign,1.31,Brain,Stage III,No,Yes,Yes,0.61,1.12,No,No
+469,56,Female,Benign,7.31,Colon,Stage I,No,No,Yes,0.02,0.46,No,Yes
+470,70,Female,Benign,1.18,Breast,Stage III,No,Yes,Yes,0.19,1.47,No,No
+471,59,Female,Benign,1.18,Skin,Stage IV,Yes,Yes,No,0.81,0.62,No,No
+472,75,Male,Benign,0.62,Lung,Stage IV,Yes,No,Yes,0.27,,Yes,No
+473,56,Female,Benign,9.59,Colon,Stage II,Yes,No,Yes,0.73,1.71,No,No
+474,31,Female,Benign,7.51,Lung,,No,No,No,0.37,1.01,No,Yes
+475,22,Female,Malignant,3.86,Colon,Stage I,No,Yes,No,0.52,1.37,Yes,Yes
+476,52,Male,Malignant,3.32,Breast,Stage II,No,Yes,Yes,0.07,0.86,Yes,Yes
+477,35,Male,Malignant,3.82,Breast,Stage IV,No,No,No,0.18,0.67,No,Yes
+478,26,Female,Benign,7.86,Breast,Stage I,Yes,Yes,No,0.96,1.29,No,No
+479,75,Male,Malignant,,Breast,Stage I,Yes,No,No,0.89,0.39,Yes,No
+480,34,Female,Malignant,2.26,Brain,,Yes,No,No,0.65,0.81,Yes,No
+481,24,Male,Malignant,2.15,Brain,Stage IV,Yes,Yes,Yes,0.46,0.5,Yes,Yes
+482,63,Male,Benign,1.43,Skin,Stage I,No,No,No,0.68,1.42,No,No
+483,30,Male,Benign,6.77,Lung,Stage IV,No,No,Yes,0.62,1.89,No,Yes
+484,57,Male,Benign,,Colon,Stage IV,No,No,Yes,,1.99,Yes,No
+485,59,Female,Benign,3.02,Colon,Stage IV,Yes,Yes,No,0.06,0.96,No,No
+486,26,Female,Malignant,,Brain,Stage II,Yes,No,No,0.63,0.58,Yes,No
+487,67,Female,Malignant,1.28,Colon,Stage III,No,No,No,0.77,0.94,No,No
+488,44,Male,Malignant,9.69,Brain,Stage III,No,No,Yes,0.99,1.71,,No
+489,83,Female,Malignant,3.31,Skin,Stage I,Yes,No,No,0.01,0.49,Yes,Yes
+490,22,Female,Benign,7.81,Lung,Stage IV,No,No,No,0.73,1.91,No,No
+491,46,Female,Benign,6.43,Skin,,Yes,No,No,0.57,0.75,No,Yes
+492,54,Male,Benign,4.13,Breast,Stage IV,Yes,No,No,0.43,,No,Yes
+493,55,Male,Malignant,2.45,Breast,Stage IV,Yes,Yes,No,0.13,1.69,No,Yes
+494,25,Male,Benign,1.65,Breast,Stage II,No,Yes,Yes,0.41,,No,Yes
+495,82,Female,Benign,6.34,Skin,,No,No,No,0.35,0.7,No,Yes
+496,34,Female,Malignant,7.86,Colon,Stage IV,Yes,Yes,No,0.3,0.12,Yes,Yes
+497,88,Female,Malignant,6.62,Lung,Stage IV,No,Yes,No,0.73,0.83,No,Yes
+498,62,Male,Benign,5.54,Breast,,Yes,No,Yes,0.7,0.67,Yes,Yes
+499,21,Male,Benign,0.9,Breast,Stage II,Yes,Yes,No,0.59,0.17,,No
+500,53,Female,Benign,,Breast,Stage I,Yes,No,Yes,0.94,1.06,,No
+501,87,Male,Benign,,Lung,Stage III,Yes,No,Yes,0.35,0.87,Yes,Yes
+502,48,Male,Benign,3.28,Breast,Stage I,No,No,No,0.24,1.31,Yes,Yes
+503,36,Male,Benign,9.81,Lung,Stage I,Yes,No,No,0.66,1.28,No,Yes
+504,78,Male,Malignant,6.22,Breast,Stage III,Yes,No,No,0.2,0.33,No,No
+505,71,Female,Malignant,6.03,Skin,Stage IV,No,Yes,Yes,0.32,1.96,No,No
+506,56,Male,Malignant,7.61,Skin,,Yes,No,Yes,0.22,0.46,Yes,Yes
+507,36,Male,Benign,8.21,Lung,Stage I,Yes,Yes,Yes,0.07,0.95,No,Yes
+508,56,Male,Malignant,,Skin,Stage II,No,No,Yes,0.83,1.03,No,No
+509,84,Male,Benign,1.72,Lung,Stage IV,No,No,Yes,0.25,1.64,No,No
+510,62,Female,Benign,3.71,Skin,Stage I,No,No,Yes,0.47,,No,Yes
+511,30,Female,Malignant,9.32,Skin,Stage II,Yes,Yes,No,0.04,0.91,,Yes
+512,75,Male,Benign,2.63,Lung,Stage IV,No,No,No,0.7,1.29,No,Yes
+513,37,Male,Benign,4.04,Colon,Stage III,No,No,Yes,0.33,,Yes,Yes
+514,89,Male,Malignant,4.6,Skin,Stage III,Yes,No,No,0.74,1.29,No,No
+515,78,Male,Malignant,4.67,Breast,Stage II,Yes,No,No,0.41,,,No
+516,56,Male,Malignant,6.32,Colon,Stage III,Yes,Yes,Yes,0.2,2.0,Yes,Yes
+517,18,Male,Benign,9.46,Lung,Stage I,Yes,No,Yes,,0.16,Yes,Yes
+518,20,Female,Malignant,,Colon,Stage IV,Yes,Yes,No,0.13,0.55,,Yes
+519,79,Male,Malignant,1.65,Brain,Stage I,No,No,Yes,,0.69,Yes,No
+520,80,Female,Benign,2.38,Brain,Stage I,No,Yes,Yes,0.32,0.86,No,Yes
+521,42,Female,Malignant,8.93,Skin,Stage III,No,Yes,No,0.91,0.56,No,Yes
+522,73,Male,Malignant,6.64,Skin,Stage I,Yes,No,Yes,,0.49,No,Yes
+523,50,Female,Malignant,3.22,Breast,Stage III,Yes,No,No,0.69,,No,No
+524,55,Female,Benign,8.25,Colon,,Yes,Yes,No,0.18,1.85,No,Yes
+525,23,Female,Benign,8.68,Brain,Stage IV,No,No,No,0.32,0.19,Yes,No
+526,75,Female,Benign,,Skin,Stage I,No,No,No,0.42,0.74,No,Yes
+527,61,Female,Benign,9.23,Colon,Stage II,Yes,No,No,0.91,0.87,Yes,Yes
+528,62,Female,Malignant,2.9,Skin,Stage III,No,Yes,Yes,0.24,0.55,,Yes
+529,49,Male,Benign,7.67,Skin,Stage III,Yes,No,Yes,0.09,1.29,Yes,No
+530,62,Female,Benign,4.88,Brain,Stage I,No,No,Yes,0.32,1.32,Yes,Yes
+531,78,Female,Malignant,8.5,Brain,Stage III,No,No,Yes,0.1,1.72,Yes,Yes
+532,64,Female,Malignant,7.42,Skin,Stage III,No,Yes,No,0.13,1.51,Yes,No
+533,38,Male,Malignant,7.88,Lung,Stage II,Yes,No,No,0.57,1.13,Yes,No
+534,53,Female,Benign,,Skin,Stage II,No,Yes,Yes,0.06,1.34,No,No
+535,36,Male,Benign,2.19,Skin,Stage I,No,No,No,0.03,0.62,Yes,Yes
+536,37,Female,Benign,5.68,Breast,Stage II,Yes,Yes,Yes,0.71,1.23,No,No
+537,74,Male,Malignant,9.85,Breast,Stage I,No,No,Yes,0.36,1.03,Yes,Yes
+538,35,Male,Malignant,9.41,Breast,Stage IV,Yes,No,Yes,0.13,0.35,Yes,No
+539,64,Female,Benign,0.91,Lung,Stage I,Yes,Yes,No,,0.56,Yes,No
+540,66,Female,Malignant,2.07,Lung,Stage IV,Yes,Yes,No,0.64,0.65,Yes,No
+541,31,Male,Malignant,1.75,Skin,Stage I,Yes,Yes,No,0.28,1.86,No,Yes
+542,32,Female,Malignant,,Breast,Stage III,Yes,No,No,0.49,0.54,No,Yes
+543,48,Male,Benign,8.27,Lung,Stage II,No,No,Yes,0.12,0.65,No,Yes
+544,18,Male,Malignant,2.53,Brain,,Yes,No,No,,0.8,Yes,Yes
+545,71,Male,Malignant,5.31,Skin,,Yes,No,No,0.32,,Yes,Yes
+546,20,Male,Benign,8.49,Colon,,Yes,Yes,No,0.63,0.32,Yes,Yes
+547,33,Male,Benign,7.46,Skin,,Yes,No,Yes,0.81,1.91,No,Yes
+548,74,Female,Malignant,5.65,Colon,Stage II,No,No,Yes,0.61,1.74,Yes,Yes
+549,29,Male,Malignant,6.11,Breast,,Yes,No,No,0.3,1.2,,Yes
+550,33,Male,Benign,,Colon,Stage I,No,No,No,0.26,1.38,No,No
+551,89,Female,Benign,3.33,Breast,Stage IV,Yes,No,No,0.33,0.13,Yes,No
+552,41,Male,Malignant,5.87,Brain,Stage IV,No,No,No,0.16,0.74,,Yes
+553,45,Female,Malignant,7.04,Colon,,Yes,No,Yes,,1.61,No,Yes
+554,25,Female,Malignant,8.8,Skin,Stage II,Yes,Yes,No,0.79,,No,Yes
+555,53,Female,Malignant,6.54,Breast,Stage III,No,No,No,,0.64,No,Yes
+556,25,Male,Benign,7.73,Skin,Stage III,Yes,No,No,0.44,,Yes,No
+557,75,Male,Malignant,2.02,Lung,Stage I,No,No,Yes,0.59,0.59,Yes,No
+558,77,Male,Malignant,,Breast,Stage I,Yes,No,Yes,0.59,1.87,Yes,Yes
+559,67,Female,Benign,0.59,Colon,Stage I,No,Yes,No,0.07,0.35,Yes,No
+560,45,Male,Malignant,,Breast,Stage II,Yes,Yes,No,0.83,1.62,Yes,No
+561,58,Female,Benign,7.4,Skin,Stage I,Yes,Yes,No,,1.07,Yes,Yes
+562,81,Male,Malignant,9.92,Brain,Stage I,No,Yes,No,0.72,1.53,No,Yes
+563,44,Female,Malignant,1.44,Breast,Stage II,Yes,Yes,No,0.77,0.69,No,Yes
+564,80,Male,Benign,4.31,Colon,Stage II,Yes,Yes,Yes,0.71,1.08,No,Yes
+565,34,Male,Benign,8.1,Lung,Stage IV,Yes,No,Yes,0.58,1.73,Yes,No
+566,50,Male,Malignant,2.44,Brain,Stage I,Yes,Yes,Yes,0.01,0.99,No,Yes
+567,46,Female,Malignant,5.77,Lung,Stage I,Yes,Yes,No,0.36,0.78,Yes,No
+568,30,Female,Malignant,7.46,Breast,Stage I,Yes,No,Yes,0.6,1.12,Yes,Yes
+569,63,Male,Benign,6.35,Skin,Stage IV,No,Yes,Yes,0.39,1.46,No,No
+570,52,Male,Malignant,2.29,Skin,Stage I,No,No,Yes,0.86,0.94,Yes,Yes
+571,23,Female,Benign,,Colon,Stage IV,No,No,No,0.31,1.88,No,Yes
+572,86,Female,Benign,7.95,Skin,Stage III,Yes,Yes,No,0.29,,No,No
+573,64,Female,Malignant,5.77,Brain,Stage IV,No,No,Yes,0.27,1.0,Yes,No
+574,42,Male,Benign,0.55,Skin,Stage III,Yes,Yes,No,0.33,1.54,No,No
+575,83,Female,Malignant,7.73,Colon,Stage I,Yes,Yes,Yes,0.56,1.41,No,Yes
+576,27,Male,Malignant,0.84,Breast,Stage III,Yes,No,Yes,0.71,1.74,No,No
+577,73,Female,Malignant,7.58,Breast,Stage IV,Yes,No,Yes,0.66,1.99,No,No
+578,47,Male,Malignant,2.42,Skin,Stage II,No,Yes,Yes,0.81,0.91,Yes,No
+579,22,Female,Malignant,,Lung,Stage III,Yes,No,No,0.89,0.31,No,No
+580,50,Female,Benign,4.0,Breast,Stage III,No,No,No,,0.16,No,No
+581,82,Female,Benign,3.61,Skin,Stage I,Yes,Yes,No,,1.48,No,No
+582,35,Female,Malignant,1.91,Colon,Stage IV,No,Yes,No,0.74,1.76,Yes,No
+583,66,Female,Malignant,3.4,Skin,Stage III,No,No,Yes,0.21,0.52,No,No
+584,28,Male,Benign,8.83,Breast,Stage III,No,Yes,No,0.13,0.4,Yes,No
+585,43,Female,Benign,9.97,Colon,Stage III,No,Yes,Yes,0.64,0.22,No,Yes
+586,80,Female,Benign,4.0,Skin,Stage III,No,Yes,No,,1.66,No,Yes
+587,76,Female,Benign,4.76,Brain,Stage II,No,Yes,No,0.06,0.69,No,No
+588,44,Male,Malignant,7.36,Colon,Stage IV,Yes,Yes,No,,0.86,Yes,Yes
+589,66,Female,Malignant,8.92,Brain,Stage I,No,Yes,Yes,0.0,1.06,Yes,Yes
+590,50,Male,Benign,6.13,Lung,Stage I,Yes,Yes,Yes,0.9,1.69,Yes,No
+591,18,Female,Malignant,4.22,Colon,,No,No,Yes,,1.34,Yes,No
+592,38,Female,Benign,4.42,Brain,Stage IV,Yes,Yes,Yes,0.21,1.27,Yes,No
+593,72,Male,Malignant,7.11,Breast,Stage III,No,No,No,0.42,0.43,Yes,No
+594,23,Female,Benign,0.53,Breast,Stage II,No,No,Yes,0.36,1.08,No,No
+595,86,Male,Malignant,6.39,Lung,Stage IV,Yes,No,Yes,0.91,,Yes,No
+596,22,Male,Benign,3.88,Colon,,No,Yes,No,0.04,1.95,,Yes
+597,20,Female,Benign,,Colon,Stage II,No,Yes,No,0.51,,Yes,No
+598,70,Male,Malignant,1.38,Colon,,No,No,Yes,0.68,0.12,,Yes
+599,40,Female,Benign,6.09,Lung,Stage I,Yes,Yes,No,0.93,0.24,Yes,No
+600,70,Female,Malignant,,Colon,Stage I,No,No,Yes,0.62,0.81,No,No
+601,54,Male,Malignant,6.6,Breast,Stage IV,Yes,Yes,No,0.8,1.66,Yes,Yes
+602,34,Male,Benign,1.12,Brain,Stage I,No,Yes,Yes,0.08,0.11,,No
+603,18,Male,Malignant,6.01,Breast,Stage IV,No,No,Yes,,0.97,No,No
+604,68,Male,Malignant,5.83,Breast,Stage III,Yes,No,Yes,0.37,0.73,No,Yes
+605,62,Female,Malignant,5.83,Brain,Stage IV,No,No,Yes,,0.2,No,No
+606,21,Female,Malignant,6.23,Breast,Stage III,No,Yes,Yes,0.15,0.96,No,Yes
+607,79,Male,Malignant,6.93,Lung,Stage II,Yes,No,No,0.15,0.58,Yes,No
+608,82,Female,Benign,8.15,Brain,Stage IV,No,Yes,Yes,,0.77,No,No
+609,49,Female,Malignant,3.06,Breast,Stage II,Yes,Yes,Yes,0.05,1.44,Yes,Yes
+610,51,Female,Malignant,8.34,Skin,Stage I,Yes,Yes,Yes,0.18,1.09,Yes,No
+611,89,Female,Malignant,5.23,Breast,Stage III,Yes,No,Yes,0.97,0.34,No,Yes
+612,56,Male,Malignant,1.23,Lung,Stage IV,No,No,Yes,0.43,1.93,Yes,Yes
+613,43,Male,Malignant,1.06,Colon,Stage II,Yes,No,No,0.63,1.31,No,Yes
+614,51,Female,Benign,3.68,Breast,Stage III,Yes,Yes,No,,1.56,Yes,No
+615,71,Male,Malignant,7.96,Colon,Stage III,No,Yes,Yes,0.37,0.25,No,No
+616,20,Male,Benign,7.22,Skin,,Yes,No,No,,0.19,No,Yes
+617,67,Male,Benign,7.99,Breast,Stage I,No,Yes,Yes,0.21,0.14,No,No
+618,29,Female,Benign,5.41,Brain,Stage III,No,Yes,No,0.31,0.46,No,No
+619,82,Female,Benign,4.68,Colon,Stage III,No,No,No,0.64,0.89,No,No
+620,71,Female,Malignant,1.9,Skin,Stage IV,No,No,Yes,0.4,1.88,No,Yes
+621,22,Male,Benign,3.62,Brain,Stage III,Yes,No,No,0.01,0.97,Yes,No
+622,74,Female,Benign,4.62,Brain,Stage IV,Yes,Yes,No,0.52,0.65,Yes,Yes
+623,34,Female,Malignant,1.34,Brain,Stage III,Yes,Yes,Yes,0.92,1.17,Yes,No
+624,64,Male,Malignant,2.6,Brain,Stage I,Yes,Yes,Yes,0.81,0.31,No,No
+625,40,Female,Malignant,6.18,Breast,Stage IV,Yes,Yes,No,0.83,1.26,Yes,Yes
+626,31,Female,Benign,7.49,Breast,Stage II,No,Yes,No,0.8,1.18,No,No
+627,83,Male,Malignant,9.98,Breast,Stage I,Yes,No,No,0.32,1.6,Yes,Yes
+628,68,Male,Malignant,,Skin,Stage IV,Yes,Yes,Yes,0.77,1.97,Yes,No
+629,55,Male,Benign,6.6,Skin,Stage IV,Yes,Yes,No,0.14,0.58,No,Yes
+630,81,Female,Malignant,4.5,Skin,Stage II,No,Yes,No,0.66,1.07,Yes,No
+631,55,Female,Malignant,6.54,Lung,Stage IV,No,No,No,0.64,1.83,Yes,No
+632,67,Female,Malignant,7.96,Skin,Stage III,Yes,No,Yes,0.03,1.59,Yes,No
+633,47,Male,Malignant,1.62,Breast,Stage II,No,No,Yes,0.79,1.03,No,Yes
+634,68,Male,Benign,4.39,Breast,Stage I,Yes,Yes,Yes,0.9,1.9,Yes,Yes
+635,80,Female,Malignant,8.48,Lung,Stage I,Yes,No,Yes,0.27,0.21,No,Yes
+636,69,Female,Malignant,4.15,Lung,Stage III,No,No,No,0.81,1.87,Yes,No
+637,55,Male,Benign,,Skin,Stage I,No,No,Yes,0.08,0.2,,Yes
+638,47,Male,Malignant,6.08,Colon,Stage IV,Yes,Yes,No,0.6,1.14,Yes,Yes
+639,68,Male,Benign,2.25,Lung,,Yes,No,No,0.49,1.79,Yes,Yes
+640,22,Male,Malignant,3.94,Brain,Stage III,No,Yes,No,0.55,0.6,No,Yes
+641,46,Female,Benign,3.68,Breast,Stage I,Yes,Yes,No,,1.0,,Yes
+642,21,Male,Benign,0.75,Brain,Stage I,No,No,Yes,0.87,,No,Yes
+643,27,Female,Benign,0.73,Breast,Stage III,Yes,Yes,Yes,0.79,,No,Yes
+644,73,Female,Benign,8.4,Breast,Stage II,No,No,Yes,0.27,,Yes,Yes
+645,34,Female,Malignant,3.09,Lung,Stage I,Yes,Yes,Yes,0.91,1.45,Yes,Yes
+646,34,Male,Benign,5.42,Lung,Stage II,Yes,No,Yes,0.1,1.22,No,Yes
+647,86,Male,Malignant,3.34,Brain,Stage I,No,No,No,,1.66,No,No
+648,51,Male,Benign,9.44,Breast,Stage I,Yes,No,Yes,0.33,0.85,Yes,No
+649,23,Male,Benign,2.96,Brain,Stage I,Yes,Yes,Yes,0.05,0.95,,Yes
+650,70,Female,Benign,4.58,Colon,Stage I,No,No,Yes,0.67,,Yes,No
+651,83,Male,Malignant,,Brain,,Yes,Yes,Yes,0.23,0.78,Yes,No
+652,60,Male,Benign,8.5,Skin,Stage II,Yes,No,No,0.24,0.22,Yes,Yes
+653,40,Female,Malignant,2.27,Brain,Stage II,Yes,Yes,No,0.31,0.24,No,Yes
+654,72,Male,Malignant,8.13,Skin,Stage I,No,Yes,No,,0.32,Yes,Yes
+655,33,Female,Malignant,4.85,Skin,Stage I,No,No,No,0.18,1.75,Yes,No
+656,25,Female,Malignant,5.09,Skin,Stage II,No,No,No,0.01,1.0,No,Yes
+657,21,Female,Malignant,1.77,Colon,Stage IV,Yes,No,Yes,0.45,1.45,Yes,No
+658,21,Female,Malignant,1.27,Brain,Stage III,Yes,No,No,0.08,0.85,Yes,Yes
+659,73,Female,Malignant,7.42,Brain,Stage III,Yes,No,No,0.68,0.59,No,No
+660,42,Female,Malignant,5.22,Colon,,Yes,Yes,No,0.24,0.76,Yes,No
+661,84,Female,Malignant,4.65,Breast,Stage I,No,No,Yes,0.94,1.61,No,Yes
+662,84,Female,Benign,7.43,Lung,Stage I,Yes,No,Yes,0.87,1.29,Yes,Yes
+663,44,Male,Benign,7.77,Brain,Stage IV,Yes,Yes,No,0.29,1.88,Yes,No
+664,49,Male,Benign,2.01,Lung,Stage III,Yes,No,Yes,0.78,1.39,Yes,No
+665,67,Male,Benign,6.3,Colon,Stage IV,No,No,Yes,,1.18,No,Yes
+666,78,Male,Benign,1.79,Breast,Stage III,Yes,Yes,No,0.99,1.26,No,Yes
+667,68,Female,Malignant,,Breast,Stage II,Yes,No,Yes,0.6,1.89,No,No
+668,36,Male,Malignant,,Breast,Stage III,Yes,No,Yes,0.08,1.6,No,Yes
+669,38,Female,Malignant,,Colon,Stage IV,Yes,No,Yes,0.65,0.15,Yes,No
+670,22,Male,Malignant,1.16,Skin,Stage IV,Yes,Yes,No,0.62,1.11,No,Yes
+671,59,Male,Malignant,1.04,Skin,Stage IV,No,No,No,0.64,1.41,,Yes
+672,78,Male,Malignant,3.18,Lung,Stage II,Yes,Yes,No,0.31,1.52,No,Yes
+673,39,Female,Malignant,,Skin,Stage III,Yes,No,Yes,0.86,0.5,,No
+674,38,Male,Benign,,Skin,Stage III,Yes,Yes,No,,1.75,Yes,Yes
+675,87,Female,Benign,9.11,Breast,Stage IV,Yes,No,Yes,0.22,1.92,No,No
+676,18,Female,Benign,2.87,Breast,Stage III,Yes,Yes,Yes,0.09,0.55,No,Yes
+677,22,Male,Benign,3.08,Lung,,Yes,Yes,Yes,0.19,1.78,,No
+678,29,Male,Malignant,7.71,Brain,Stage I,Yes,Yes,No,0.82,,No,No
+679,63,Male,Malignant,4.77,Lung,Stage I,Yes,Yes,No,0.68,0.21,No,Yes
+680,51,Female,Malignant,7.88,Lung,Stage III,Yes,Yes,No,0.64,0.35,No,No
+681,66,Male,Benign,1.12,Colon,Stage II,Yes,Yes,No,0.4,0.21,,No
+682,62,Female,Malignant,5.13,Colon,Stage II,No,No,Yes,0.58,1.71,Yes,No
+683,44,Female,Malignant,0.82,Lung,Stage II,No,No,No,0.31,,Yes,No
+684,43,Male,Malignant,1.1,Lung,,No,Yes,Yes,0.48,0.62,Yes,Yes
+685,64,Male,Benign,9.11,Lung,Stage I,No,Yes,No,0.79,0.3,No,Yes
+686,73,Female,Malignant,1.82,Skin,Stage I,Yes,Yes,No,,0.66,No,Yes
+687,80,Female,Benign,5.56,Colon,Stage IV,No,Yes,No,0.93,0.27,Yes,No
+688,65,Female,Benign,4.41,Lung,Stage III,No,No,Yes,0.93,1.37,Yes,No
+689,78,Male,Benign,3.8,Breast,Stage III,Yes,Yes,Yes,0.4,0.35,,Yes
+690,43,Female,Benign,9.05,Breast,Stage II,No,No,Yes,0.47,1.72,No,Yes
+691,53,Male,Malignant,0.71,Skin,Stage I,No,No,Yes,0.71,1.65,,No
+692,18,Female,Benign,6.81,Skin,Stage II,Yes,Yes,Yes,0.92,0.13,,Yes
+693,25,Female,Benign,9.65,Brain,Stage IV,Yes,Yes,No,0.14,1.8,No,Yes
+694,69,Male,Malignant,5.82,Brain,Stage III,Yes,No,Yes,0.3,0.15,Yes,No
+695,64,Female,Malignant,9.4,Brain,Stage III,No,No,Yes,0.14,0.56,Yes,Yes
+696,73,Male,Benign,1.0,Skin,Stage II,No,Yes,Yes,0.61,0.16,No,No
+697,31,Male,Malignant,4.48,Skin,Stage IV,Yes,Yes,Yes,0.31,0.74,Yes,Yes
+698,45,Female,Benign,2.97,Skin,Stage III,Yes,Yes,No,0.33,1.08,Yes,No
+699,19,Male,Benign,7.44,Breast,Stage IV,No,No,Yes,0.07,1.61,No,No
+700,43,Male,Benign,9.82,Skin,Stage IV,Yes,No,No,0.35,0.74,No,No
