@@ -4,7 +4,7 @@ class Node:
         self.data = data
         self.next = None  # Pointer to the next node
         
-class LinkedList:
+class LinkedList:  
     """A class to represent the linked list."""
     def __init__(self):
         self.head = None  # Initialize the head of the list as None
