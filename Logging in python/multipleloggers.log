@@ -1,0 +1,3 @@
+2025-04-19 12:27:30 - Module1 - DEBUG - This is a debug message from Module 1
+2025-04-19 12:27:41 - Module1 - DEBUG - This is a debug message from Module 1
+2025-04-19 12:27:41 - Module2 - CRITICAL - This is a critical message from Module 2
