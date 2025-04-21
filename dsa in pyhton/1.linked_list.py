@@ -19,7 +19,7 @@ class LinkedList:
         while current.next:
             current = current.next
         current.next = new_node
-
+        
     def prepend(self, data):
         """Add a new node to the beginning of the list."""
         new_node = Node(data)
@@ -60,6 +60,6 @@ if __name__ == "__main__":
 
     ll.prepend(0)
     ll.display()  # Output: 0 -> 1 -> 2 -> 3 -> None
-
+    
     ll.delete(2)
     ll.display()  # Output: 0 -> 1 -> 3 -> None
