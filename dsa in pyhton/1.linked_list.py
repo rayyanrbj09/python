@@ -62,4 +62,4 @@ if __name__ == "__main__":
     ll.display()  # Output: 0 -> 1 -> 2 -> 3 -> None
     
     ll.delete(2)
-    ll.display()  # Output: 0 -> 1 -> 3 -> None
+    ll.display()  # Output: 0 -> 1 -> 3 -> None0
