@@ -22,13 +22,11 @@ if __name__ == "__main__":
     """
 
     start_time = time.time()
-    
+
     # Creating processes
     process1 = multiprocessing.Process(target=square_numbers)
     process2 = multiprocessing.Process(target=cube_numbers)
     
-    
-
     # Starting processes
     process1.start()
     process2.start()
