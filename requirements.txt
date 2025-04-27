@@ -4,3 +4,11 @@ pandas
 numpy
 matplotlib
 seaborn
+requests
+beautifulsoup4
+bs4
+logging
+json
+multiprocessing
+multithreading
+ThreadPoolExecutor
