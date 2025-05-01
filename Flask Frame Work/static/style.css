@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    overflow-x: hidden;
+}
+
+.hero-section {
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to right top, #373b44, #4286f4);
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.animate-fade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.animate-fade:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.animate-fade:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
