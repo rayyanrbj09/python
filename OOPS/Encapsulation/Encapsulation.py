@@ -21,6 +21,7 @@ class Employee:
     
     # Setter method for salary
     def set_salary(self, salary):
+        # Ensure salary is positive
         if salary > 0:
             self.__salary = salary
         else:

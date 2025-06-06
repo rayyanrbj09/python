@@ -15,7 +15,7 @@ class BankAccount(ABC):
     
     @abstractmethod
     def balance_enquiry(self):
-        pass
+        pass # Hides the implementation details
 
 class SavingsAccount(BankAccount):
     def deposit(self, amount):
