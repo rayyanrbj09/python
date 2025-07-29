@@ -1,2 +1,103 @@
 chatgpt.py
 .env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs and local dumps
+*.log
+*.out
+*.tmp
+*.bak
+
+# SQLite DBs (optional)
+*.sqlite
+*.sqlite3
+
+# Images, datasets, or media folders (if applicable)
+images/
+datasets/
+*.csv
+*.tsv
+*.zip
+
+# Secrets (if using dotenv or keys)
+.env
+.env.*
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+
+# Pyre, Pyright
+.pyright/
+
+# Misc
+*.swp
+*.swo
