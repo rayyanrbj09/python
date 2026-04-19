@@ -9,9 +9,9 @@ def print_square(n):
     time.sleep(1)  # Simulate a time-consuming task
     return f"The square of {n} is {n * n}"
 
-n = [1, 2, 3, 4, 5]
+n = [x*x for x in range(100)]  # List of numbers from 0 to 9
 # Create a ThreadPoolExecutor with 3 threads
-with ThreadPoolExecutor(max_workers=3) as executor:
+with ThreadPoolExecutor(max_workers=10) as executor:
     # Map the function to the list of numbers
     results = executor.map(print_square, n)
 
