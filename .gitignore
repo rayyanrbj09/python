@@ -76,6 +76,7 @@ desktop.ini
 # SQLite DBs (optional)
 *.sqlite
 *.sqlite3
+*.bin
 
 # Images, datasets, or media folders (if applicable)
 images/
